@@ -3,10 +3,8 @@ module top_module(
     output [99:0] out
 );
 
-    reg i;
-
     always @(*) begin
-        for(i=0; i<99; i=i+1)
+        for(integer i=0; i<100; i=i+1)
         begin
             out[i] = in[99-i];
         end
