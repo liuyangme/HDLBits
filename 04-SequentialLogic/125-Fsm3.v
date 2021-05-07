@@ -9,8 +9,8 @@ module top_module(
     parameter C = 2;
     parameter D = 3;
 
-    wire reg [3:0] state;
-    wire reg [3:0] next_state;
+    reg [3:0] state;
+    reg [3:0] next_state;
 
     // State transition logic
     always @(*) begin
@@ -24,6 +24,9 @@ module top_module(
         if(areset)
         begin
             state[A] <= 1'b1;
+            state[B] <= 1'b0;
+            state[C] <= 1'b0;
+            state[D] <= 1'b0;
         end
         else 
         begin
@@ -32,6 +35,6 @@ module top_module(
     end
     // Output logic
 
-    assign out = (next_state[D]);
+    assign out = (state[D]);
 
 endmodule
