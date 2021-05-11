@@ -1,2 +1,0 @@
-# HDLBits
- HDLBits — Verilog Practice
