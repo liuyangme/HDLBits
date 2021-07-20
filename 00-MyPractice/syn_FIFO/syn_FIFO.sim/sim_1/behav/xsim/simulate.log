@@ -1,0 +1,41 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Push   1
+Push   2
+------Poped:   1
+Push  10
+Push  20
+Push  30
+Push  40
+Push  50
+Push  60
+Push  70
+---Cannot push  80: Buffer Full---
+---Cannot push  90: Buffer Full---
+---Cannot push 100: Buffer Full---
+---Cannot push 110: Buffer Full---
+---Cannot push 120: Buffer Full---
+---Cannot push 130: Buffer Full---
+------Poped:   2
+Push   2
+------Poped:  10
+------Poped:  20
+------Poped:  30
+------Poped:  40
+Push 140
+------Poped:  50
+Push  50
+------Poped:  60
+------Poped:  70
+------Poped:   2
+------Poped: 140
+------Poped:  50
+---Cannot Pop: Buffer Empty---
+---Cannot Pop: Buffer Empty---
+---Cannot Pop: Buffer Empty---
+---Cannot Pop: Buffer Empty---
+---Cannot Pop: Buffer Empty---
+---Cannot Pop: Buffer Empty---
+Push   5
+------Poped:   5
+$finish called at time : 1513 ns : File "E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/syn_FIFO/syn_FIFO.srcs/sim_1/new/syn_fifo_tb.v" Line 100

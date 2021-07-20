@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/syn_FIFO/syn_FIFO.srcs/sources_1/new/syn_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module syn_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/syn_FIFO/syn_FIFO.srcs/sim_1/new/syn_fifo_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module syn_fifo_tb
