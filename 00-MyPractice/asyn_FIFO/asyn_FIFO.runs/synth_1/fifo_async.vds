@@ -2,8 +2,8 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Mon Jul 19 21:50:04 2021
-# Process ID: 9436
+# Start of session at: Wed Jul 21 00:41:00 2021
+# Process ID: 13456
 # Current directory: E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.runs/synth_1
 # Command line: vivado.exe -log fifo_async.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fifo_async.tcl
 # Log file: E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.runs/synth_1/fifo_async.vds
@@ -15,47 +15,47 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 17216 
+INFO: Helper process launched with PID 11120 
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 429.969 ; gain = 98.813
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 430.719 ; gain = 98.754
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'fifo_async' [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/fifo_async.v:179]
+INFO: [Synth 8-6157] synthesizing module 'fifo_async' [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/fifo_async.v:22]
 	Parameter DSIZE bound to: 8 - type: integer 
 	Parameter ASIZE bound to: 4 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'sync_r2w' [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/fifo_async.v:51]
+INFO: [Synth 8-6157] synthesizing module 'sync_r2w' [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/sync_r2w.v:1]
 	Parameter ADDRSIZE bound to: 4 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sync_r2w' (1#1) [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/fifo_async.v:51]
-INFO: [Synth 8-6157] synthesizing module 'sync_w2r' [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/fifo_async.v:76]
+INFO: [Synth 8-6155] done synthesizing module 'sync_r2w' (1#1) [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/sync_r2w.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sync_w2r' [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/sync_w2r.v:1]
 	Parameter ADDRSIZE bound to: 4 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sync_w2r' (2#1) [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/fifo_async.v:76]
-INFO: [Synth 8-6157] synthesizing module 'fifomem' [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/fifo_async.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'sync_w2r' (2#1) [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/sync_w2r.v:1]
+INFO: [Synth 8-6157] synthesizing module 'fifomem' [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/fifomem.v:23]
 	Parameter DATASIZE bound to: 8 - type: integer 
 	Parameter ADDRSIZE bound to: 4 - type: integer 
 	Parameter DEPTH bound to: 16 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'fifomem' (3#1) [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/fifo_async.v:22]
-INFO: [Synth 8-6157] synthesizing module 'rptr_empty' [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/fifo_async.v:101]
+INFO: [Synth 8-6155] done synthesizing module 'fifomem' (3#1) [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/fifomem.v:23]
+INFO: [Synth 8-6157] synthesizing module 'rptr_empty' [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/rptr_empty.v:1]
 	Parameter ADDRSIZE bound to: 4 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'rptr_empty' (4#1) [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/fifo_async.v:101]
-INFO: [Synth 8-6157] synthesizing module 'wptr_full' [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/fifo_async.v:142]
+INFO: [Synth 8-6155] done synthesizing module 'rptr_empty' (4#1) [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/rptr_empty.v:1]
+INFO: [Synth 8-6157] synthesizing module 'wptr_full' [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/wptr_full.v:1]
 	Parameter ADDRSIZE bound to: 4 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'wptr_full' (5#1) [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/fifo_async.v:142]
-INFO: [Synth 8-6155] done synthesizing module 'fifo_async' (6#1) [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/fifo_async.v:179]
+INFO: [Synth 8-6155] done synthesizing module 'wptr_full' (5#1) [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/wptr_full.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_async' (6#1) [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/fifo_async.v:22]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 486.082 ; gain = 154.926
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 487.090 ; gain = 155.125
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 486.082 ; gain = 154.926
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 487.090 ; gain = 155.125
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 486.082 ; gain = 154.926
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 487.090 ; gain = 155.125
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7z020clg400-2
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 486.082 ; gain = 154.926
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 487.090 ; gain = 155.125
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -132,7 +132,7 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 648.063 ; gain = 316.906
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 649.219 ; gain = 317.254
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -160,7 +160,7 @@ No constraint files found.
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 648.063 ; gain = 316.906
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 649.219 ; gain = 317.254
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -188,7 +188,7 @@ Start Technology Mapping
 INFO: [Synth 8-3886] merging instance 'wptr_full/wptr_reg[4]' (FDC) to 'wptr_full/wbin_reg[4]'
 INFO: [Synth 8-3886] merging instance 'rptr_empty/rptr_reg[4]' (FDC) to 'rptr_empty/rbin_reg[4]'
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 648.063 ; gain = 316.906
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 649.219 ; gain = 317.254
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -212,7 +212,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 648.063 ; gain = 316.906
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 649.219 ; gain = 317.254
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -225,7 +225,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 648.063 ; gain = 316.906
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 649.219 ; gain = 317.254
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -237,25 +237,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 648.063 ; gain = 316.906
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 649.219 ; gain = 317.254
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 648.063 ; gain = 316.906
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 649.219 ; gain = 317.254
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 648.063 ; gain = 316.906
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 649.219 ; gain = 317.254
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 648.063 ; gain = 316.906
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 649.219 ; gain = 317.254
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -297,17 +297,17 @@ Report Instance Areas:
 |6     |  wptr_full  |wptr_full  |    24|
 +------+-------------+-----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 648.063 ; gain = 316.906
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 649.219 ; gain = 317.254
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 648.063 ; gain = 316.906
-Synthesis Optimization Complete : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 648.063 ; gain = 316.906
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 649.219 ; gain = 317.254
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 649.219 ; gain = 317.254
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 760.039 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 759.680 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 2 instances were transformed.
   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 2 instances
@@ -315,10 +315,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 23 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 760.039 ; gain = 441.555
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 760.039 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 759.680 ; gain = 440.980
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 759.680 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.runs/synth_1/fifo_async.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file fifo_async_utilization_synth.rpt -pb fifo_async_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Jul 19 21:50:28 2021...
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 21 00:41:33 2021...

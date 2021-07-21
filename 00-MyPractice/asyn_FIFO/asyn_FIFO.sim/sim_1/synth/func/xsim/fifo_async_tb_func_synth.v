@@ -1,7 +1,7 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-// Date        : Mon Jul 19 21:47:44 2021
+// Date        : Wed Jul 21 00:46:38 2021
 // Host        : LiuYang-Laptop running 64-bit major release  (build 9200)
 // Command     : write_verilog -mode funcsim -nolib -force -file
 //               E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.sim/sim_1/synth/func/xsim/fifo_async_tb_func_synth.v

@@ -29,7 +29,14 @@ set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property ip_output_repo e:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_verilog -library xil_defaultlib E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/fifo_async.v
+read_verilog -library xil_defaultlib {
+  E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/fifomem.v
+  E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/rptr_empty.v
+  E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/sync_r2w.v
+  E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/sync_w2r.v
+  E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/wptr_full.v
+  E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sources_1/new/fifo_async.v
+}
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
 # design are intentionally left as such for best results. Dcp files will be

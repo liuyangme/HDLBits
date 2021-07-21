@@ -3,5 +3,5 @@ Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
 Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d930837c50d44bf3b68aad9ea42033bc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot fifo_async_tb_behav xil_defaultlib.fifo_async_tb xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
-ERROR: [VRFC 10-2063] Module <fifo_async> not found while processing module instance <fifo_inst> [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sim_1/new/fifo_async_tb.v:33]
+ERROR: [VRFC 10-2063] Module <fifo_async> not found while processing module instance <fifo_async_u1> [E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/asyn_FIFO/asyn_FIFO.srcs/sim_1/new/fifo_async_tb.v:33]
 ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
