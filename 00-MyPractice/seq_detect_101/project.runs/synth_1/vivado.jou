@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Sep 16 12:55:14 2021
+# Process ID: 15248
+# Current directory: E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/seq_detect_101/project.runs/synth_1
+# Command line: vivado.exe -log seq_detect.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source seq_detect.tcl
+# Log file: E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/seq_detect_101/project.runs/synth_1/seq_detect.vds
+# Journal file: E:/Project/Doing/ProgrammingExercise/HDLBits/00-MyPractice/seq_detect_101/project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source seq_detect.tcl -notrace
